@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: url(https://cdn.hipwallpaper.com/i/31/76/E8FiYD.jpg)
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: xxx-large;
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+<form class="header">
+    <div>
+        <header><img src="https://mtinews.in/assets/media/BridgeLabz-Logo-2.png" width="100" height="100">Welcome To Bridgelabz</header><br><br>
+    </div></form>
+<form action="LoginServlet" method="post">
+    <label><span style="color: white">Username: <input type="text" name="user" placeholder="Enter The Username"></span></label>
+    <br><br>
+    <label><span style="color: white ">Password: <input type="password" name="pwd" placeholder="Enter The Password"></span></label>
+    <br><br>
+    <input type="submit" value="Login">
+</form>
+</body>
+</html>
